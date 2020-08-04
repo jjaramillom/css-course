@@ -1,0 +1,22 @@
+.box {
+  padding: 5px 10px 15px 20px;
+  margin: 5px 10px 15px 20px;
+  background-color: tomato;
+  border: 2px solid saddlebrown;
+  display: inline-block;
+}
+
+.first {
+  height: 300px;
+  width: 50%;
+  visibility: hidden;
+  /* display: none; */
+}
+
+html, body{
+  height: 100%;
+}
+
+div:last-of-type:hover{
+  background-color: seagreen;
+}
