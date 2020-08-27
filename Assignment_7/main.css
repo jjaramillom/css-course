@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-template-rows: 80px auto 70px;
+}
+
+.component {
+  background-color: gray;
+  border: white solid 10px;
+  text-align: center;
+  color: beige;
+  font-size: 2rem;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  border-top: none;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  border-bottom: none;
+}
